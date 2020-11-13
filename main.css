@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #1584bf;
+    
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.weather-container{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.icon{
+    height: 100px;
+}
+
+.extra{
+    position: relative;
+    text-align: center;
+    top: 210px;
+    font-family: sans-serif;
+    font-size: 30px;
+    opacity: 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 220px;
+    
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
